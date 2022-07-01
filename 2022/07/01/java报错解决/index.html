@@ -20,17 +20,21 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"valine","storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="How Bad Do You Want!">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/categories/%E4%B9%A6%E6%96%8B/index.html">
+  <meta name="description" content="Scanner in &#x3D; new Scanner(System.in);这行出现感叹号，如下图：  出现原因：声明了名为in的数据输入扫描仪（Scanner），之后系统会为它分配相应的内存空间，但是在程序结束时没有释放或关闭该内存，造成资源浪费，从而出现警告。 解决方案：在main函数内部的最后加上 1in.close();">
+<meta property="og:type" content="article">
+<meta property="og:title" content="java报错解决">
+<meta property="og:url" content="http://example.com/2022/07/01/java%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="How Bad Do You Want!">
+<meta property="og:description" content="Scanner in &#x3D; new Scanner(System.in);这行出现感叹号，如下图：  出现原因：声明了名为in的数据输入扫描仪（Scanner），之后系统会为它分配相应的内存空间，但是在程序结束时没有释放或关闭该内存，造成资源浪费，从而出现警告。 解决方案：在main函数内部的最后加上 1in.close();">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/java%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3/6na9d2xhSXpc5yY.png">
+<meta property="article:published_time" content="2022-07-01T09:32:15.000Z">
+<meta property="article:modified_time" content="2022-07-01T09:46:59.075Z">
 <meta property="article:author" content="Boss Chen">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/java%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3/6na9d2xhSXpc5yY.png">
 
-<link rel="canonical" href="http://example.com/categories/%E4%B9%A6%E6%96%8B/">
+<link rel="canonical" href="http://example.com/2022/07/01/java%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3/">
 
 
 <script id="page-configurations">
@@ -38,12 +42,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>分类: 书斋 | Hexo</title>
+  <title>java报错解决 | Hexo</title>
   
 
 
@@ -151,51 +155,107 @@
         <div class="content-wrap">
           
 
-          <div class="content category">
+          <div class="content post posts-expand">
             
 
+    
   
   
-  
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <h2 class="collection-header">书斋
-          <small>分类</small>
-        </h2>
-      </div>
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/07/01/java%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Boss Chen">
+      <meta itemprop="description" content="How Bad Do You Want!">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          java报错解决
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2022-07-01 17:32:15 / 修改时间：17:46:59" itemprop="dateCreated datePublished" datetime="2022-07-01T17:32:15+08:00">2022-07-01</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E7%A8%8B%E5%BA%8F%E4%BB%A3%E7%A0%81/" itemprop="url" rel="index"><span itemprop="name">程序代码</span></a>
+                </span>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <span class="collection-header">2022</span>
+        <ol>
+<li><p>Scanner in &#x3D; new Scanner(System.in);这行出现感叹号，如下图：</p>
+<p><img src="/java%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3/6na9d2xhSXpc5yY.png" alt="屏幕截图 2022-06-29 203538.png"></p>
+<p><strong>出现原因：</strong>声明了名为in的数据输入扫描仪（<a target="_blank" rel="noopener" href="https://so.csdn.net/so/search?q=Scanner&spm=1001.2101.3001.7020">Scanner</a>），之后系统会为它分配相应的内存空间，但是在程序结束时没有释放或关闭该内存，造成资源浪费，从而出现警告。</p>
+<p><strong>解决方案：</strong>在main函数内部的最后加上</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">in.close();</span><br></pre></td></tr></table></figure>
+
+
+</li>
+<li></li>
+<li></li>
+</ol>
+
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+    
+    
+    
 
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2022-06-23T09:29:14+08:00"
-              content="2022-06-23">
-          06-23
-        </time>
-      </div>
+      <footer class="post-footer">
 
-      <div class="post-title">
-          <a class="post-title-link" href="/2022/06/23/%E4%BB%B2%E5%B0%BC%E5%BC%9F%E5%AD%90%EF%BC%8C%E6%80%AA%E5%8A%9B%E4%B9%B1%E7%A5%9E/" itemprop="url">
-            <span itemprop="name">仲尼弟子，怪力乱神</span>
-          </a>
-      </div>
+        
 
-    </header>
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2022/06/23/%E4%BB%B2%E5%B0%BC%E5%BC%9F%E5%AD%90%EF%BC%8C%E6%80%AA%E5%8A%9B%E4%B9%B1%E7%A5%9E/" rel="prev" title="仲尼弟子，怪力乱神">
+      <i class="fa fa-chevron-left"></i> 仲尼弟子，怪力乱神
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2022/07/01/%E5%8F%BD%E5%8F%BD%E5%96%B3%E5%96%B3/" rel="next" title="叽叽喳喳">
+      叽叽喳喳 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
   </article>
-
-    </div>
-  </div>
   
   
-  
-
   
 
 
